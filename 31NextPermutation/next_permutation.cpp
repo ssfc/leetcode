@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/next-permutation/description/ 
+
 # include <algorithm>
 # include <iostream>
 # include <vector>
@@ -35,7 +37,7 @@ public:
         
         cout<<"position: "<<position<<endl;
         
-        if(position==0)
+        if(position==0) // 排列数已经最大; 
         {
             sort(nums.begin(), nums.end());
         }
